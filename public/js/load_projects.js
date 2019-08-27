@@ -48,7 +48,7 @@ sndbtn5.addEventListener('mouseover', (e) => {
     
     const musBox = document.getElementById('musBox')
     musBox.innerHTML = 
-    '<audio controls><source src="../music/walk.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>'
+    '<audio controls><source src="../music/Walk.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>'
     const description = document.getElementById('projName')
     const name = sndbtn5.innerText
     description.innerText = name
