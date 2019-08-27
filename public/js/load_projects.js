@@ -10,7 +10,7 @@ description.style.visibility = "hidden"
 sndbtn1.addEventListener('mouseover', (e) => {
     const musBox = document.getElementById('musBox')
     musBox.innerHTML = 
-    '<audio controls><source src="../music/reel.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>'
+    '<audio controls><source src="../music/Reel.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>'
     const description = document.getElementById('projName')
     const name = sndbtn1.innerText
     description.innerText = name
@@ -19,7 +19,7 @@ sndbtn1.addEventListener('mouseover', (e) => {
 sndbtn2.addEventListener('mouseover', (e) => {
     const musBox = document.getElementById('musBox')
     musBox.innerHTML = 
-    '<audio controls><source src="../music/snow.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>'
+    '<audio controls><source src="../music/Snow.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>'
     const description = document.getElementById('projName')
     const name = sndbtn2.innerText
     description.innerText = name
@@ -28,7 +28,7 @@ sndbtn2.addEventListener('mouseover', (e) => {
 sndbtn3.addEventListener('mouseover', (e) => {
     const musBox = document.getElementById('musBox')
     musBox.innerHTML = 
-    '<audio controls><source src="../music/intoAlien.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>'
+    '<audio controls><source src="../music/IntoAlien.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>'
     const description = document.getElementById('projName')
     const name = sndbtn3.innerText
     description.innerText = name
