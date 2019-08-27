@@ -1,0 +1,41 @@
+body{
+    font-size: 24px; 
+    /* color: rgb(255, 0, 0);  */
+    color: rgb(255, 81, 0); 
+    background: url('../../img/nomadic-julien-kMwXo18RKjo-unsplash.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    height: 100vh; 
+}
+
+#intro h1{
+    font-family: 'Old Standard TT';
+   
+    font-size: 200%; 
+    margin: 10% 10% 10% 60%; 
+}
+
+/* #intro a{
+    padding: 2%; 
+    font-size: 160%; 
+    
+    color: rgb(255, 81, 0); 
+    text-decoration: none;
+    margin: 40% 40% 8% 70%; 
+} */
+ul{
+    list-style-type: none;
+    margin: 5% 40% 8% 70%; 
+    text-decoration: none; 
+    color: rgb(255, 81, 0); 
+}
+a{
+    padding: 2%; 
+    font-size: 160%; 
+    
+    color: rgb(255, 81, 0); 
+    text-decoration: none;
+    /* margin: 40% 40% 8% 70%;  */
+}

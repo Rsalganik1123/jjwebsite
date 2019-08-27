@@ -1,0 +1,63 @@
+
+#intro{
+    background:url('../../img/zhanjiang-chen-pkhLNUtniPU-unsplash.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    height: 100vh; 
+    color: white;
+    
+}
+#about{
+    background: rgba(168, 33, 33, 0.582);
+    /* box-shadow: inset 0 0 0 1000px rgba(235, 232, 232, 0.24); */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    height: 100vh; 
+    color: white; 
+}
+#portfolio{
+    background: url('../../img/mike-yukhtenko-a2kD4b0KK4s-unsplash.jpg') black;
+    /* box-shadow: inset 0 0 0 1000px rgba(235, 232, 232, 0.24); */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    height: 100vh; 
+    color: white; 
+}
+#intro h1{
+    padding: 20% 0% 0% 0%; 
+    text-align: center; 
+    font-size: 350%; 
+    letter-spacing: .7em; 
+    font-family: 'Teko', sans-serif;
+}
+
+#portfolio h1{
+    padding: 5% 0% 0% 0%; 
+    text-align: center; 
+    font-size: 350%; 
+    letter-spacing: .7em; 
+    font-family: 'Teko', sans-serif;
+}
+#intro a{
+    text-decoration: none; 
+    margin: 2% 45% 2% 45%;  
+    font-size: 200%;
+    padding: .7%; 
+    color: white; 
+    letter-spacing: .3em;  
+    font-family: 'Long Cang', cursive;
+}
+header a{
+    float: right; 
+    text-decoration: none; 
+    font-family: 'Long Cang', cursive;
+    color: white; 
+    padding: 1.5%; 
+    font-size: 1.5em;  
+}

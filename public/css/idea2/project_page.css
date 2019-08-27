@@ -1,0 +1,70 @@
+body{
+    background:url('../../img/daoud-abismail-OpFMc_6ubP0-unsplash.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    height: 100vh; 
+    font-family: 'Old Standard TT';
+    color: rgb(255, 81, 0);
+}
+ul{
+    list-style-type: none;
+}
+li{
+    margin: 1% 0% 1% 15%; 
+    padding: 1%; 
+    background-color: rgba(247, 240, 240, 0);
+    font-family: 'Old Standard TT'; 
+    font-size: 220%; 
+    color: rgba(255, 81, 0, 0.692);
+    border: 2px solid inset white; 
+}
+#offset{
+    margin: 2%; 
+    visibility: hidden;
+}
+#audio, #video, #musBox{
+    margin: 2% 0%;  
+    /* border: 2px solid white;  */
+}
+#musBoxOuter, #vidBox{
+    margin-left: 40%;
+    margin-right: 20%; 
+}
+li:hover{
+    background-color:rgba(247, 240, 240, 0.151); 
+     
+}
+li{
+    width: 20%;
+}
+#projName{
+    /* background-color: rgba(247, 240, 240, 0.61);  */
+    /* text-align: center;  */
+    font-size: 120%; 
+    width: 20%; 
+    margin-left: 10%; 
+    padding: 1%; 
+}
+#audio ul span{
+    text-decoration: underline rgb(255, 81, 0); 
+}
+
+/* audio::-webkit-media-controls-panel{
+    background-color: yellow; 
+} */
+
+header a{
+    float: right; 
+    text-decoration: none; 
+    padding: 1.5%; 
+    font-size: 120%; 
+    color: rgb(255, 81, 0); 
+}
+a:hover{
+    text-decoration: underline rgb(255, 81, 0); 
+}
+header a:hover{
+    background-color: rgba(255, 81, 0, 0.274);
+}

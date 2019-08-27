@@ -1,0 +1,185 @@
+body{
+    /* font-family: 'Teko';  */
+    
+    font-size: 16px; 
+}
+.container{
+    margin: 2%; 
+}
+#intro{
+    /* background:url('../../img/parker-coffman-Xtz44YgyrK4-unsplash.jpg'); */
+    background: url('../../img/zhanjiang-chen-pkhLNUtniPU-unsplash.jpg'); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    margin-top: 2%;    
+    height: 100vh; 
+    /* color: rgb(18, 93, 233); */
+    color: white; 
+
+    
+    /* font-family: 'Old Standard TT', serif; */
+    
+}
+#intro div, #intro h1{
+    
+    margin: 3% 20% 3% 30%; 
+}
+#intro a{
+    /* color: rgb(18, 93, 233);   */
+    text-decoration: none; 
+    font-size: 200%; 
+    
+    font-family: "Long Cang";
+    margin-right: 15%; 
+}
+#intro a:hover{
+    text-decoration: underline black; 
+}
+
+#about{
+    /* background: url('../../img/cristian-newman-wGKCaRbElmk-unsplash.jpg') right no-repeat; */
+    /* background: url('../../img/tim-mossholder-VbuixRs08Fs-unsplash.jpg'); */
+    /* background: url('../../img/dallin-holding-SaovgEQMo00-unsplash.jpg') center no-repeat; */
+    background: url('../../img/augustine-wong-wjL78m4a2qM-unsplash.jpg') center no-repeat, gray; 
+
+    /* box-shadow: inset 0 0 0 1000px rgba(235, 232, 232, 0.24); */
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  */
+    height: 100vh; 
+    /* color: rgb(51, 54, 255); */
+    color: black;
+       
+    height: 100vh; 
+    font-size: 120%;
+    margin: 2%; 
+}
+#about-box1{
+    font-size: 200%; 
+    padding: 1% 40% 0% 5%; 
+}
+#about-box2{
+    font-size: 130%; 
+    padding: 0% 0% 0% 10%; 
+    width: 100%; 
+}
+#about-box2 span{
+    margin-right: 20%; 
+}
+#about-box2 div{
+    margin-left: 20%; 
+}
+#about a{
+    text-decoration: none; 
+    /* color: rgb(247, 143, 6);  */
+    /* color: rgb(251, 255, 0); */
+    color: rgb(18, 93, 233); 
+    font-size: 2em; 
+    font-style: bold; 
+    font-family: "Long Cang"; 
+}
+/* #about a:hover{
+    text-decoration: black underline; 
+} */
+#about a:hover{
+    text-decoration: none;
+    color: black; 
+    border: 4px black solid;
+    
+}
+#portfolio{
+    background: url('../../img/john-towner-NfO6E5iQPAU-unsplash.jpg');
+    /* box-shadow: inset 0 0 0 1000px rgba(235, 232, 232, 0.24); */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    height: 100vh; 
+    color: rgb(18, 93, 233);
+    margin-top: 2% ;    
+    
+}
+#CV{
+    /* background: url('../../img/dallin-holding-SaovgEQMo00-unsplash.jpg') center no-repeat; */
+    background: url('../../img/anastasia-dulgier-OKOOGO578eo-unsplash.jpg');  
+    /* background: url('../../img/johannes-w-xgqyywE-wDg-unsplash.jpg') center no-repeat; */
+    /* box-shadow: inset 0 0 0 1000px rgba(235, 232, 232, 0.24); */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    height: 120vh; 
+    color: rgb(3, 247, 247); 
+    /* font-size: 20px;  */
+    
+}
+#CV a{
+    color: white; 
+}
+#CV #experience{
+    margin-top: 0%;
+    padding: 2%;  
+    float:right; 
+    font-size: 150%; 
+    border: double white;
+    background-color: rgba(233, 234, 240, 0.062); 
+}
+#CV #awards{
+    /* margin-top: -5%; */
+    padding: 2%;  
+    float: left;  
+    font-size: 150%; 
+    border: double white; 
+    background-color: rgba(233, 234, 240, 0.062);
+}
+#CV #education{ 
+    font-size: 150%; 
+}
+#CV li:hover{
+    color: yellowgreen; 
+}
+
+#intro h1{
+    padding: 20% 0% 0% 0%; 
+    text-align: center; 
+    font-size: 350%; 
+    letter-spacing: .7em; 
+    font-family: 'Teko', sans-serif;
+}
+
+#portfolio h1{
+    padding: 5% 0% 0% 0%; 
+    text-align: center; 
+    font-size: 350%; 
+    letter-spacing: .7em; 
+    font-family: 'Teko', sans-serif;
+}
+
+header a{
+    float: right; 
+    text-decoration: none; 
+    font-family: 'Long Cang', cursive;
+    color: rgba(23, 59, 219, 0.582); 
+    padding: 1.5%; 
+    font-size: 1.5em;  
+}
+
+#im1, #im2, #im3{
+    /* visibility: hidden;  */
+    display: none; 
+    height: 20%; 
+    width: 30%; 
+    border: 2px solid black; 
+}
+#clip1, #clip2, #clip3 {
+    /* display: none;  */
+    font-family: 'Long Cang', cursive;
+    margin: 0% 0% 10% 4%; 
+    text-align: center;  
+    text-decoration: none; 
+    color: rgba(23, 59, 219, 0.582); 
+    font-size: 200%; 
+}
